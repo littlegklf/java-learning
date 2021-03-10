@@ -1,13 +1,16 @@
-package com.example.springcloud;
+package com.example.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author user
+ */
 @SpringBootApplication
-public class SpringCloudApplication {
+public class RedisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudApplication.class, args);
+        SpringApplication.run(RedisApplication.class, args);
     }
 
 }
